@@ -7,7 +7,6 @@ def cornercheck(gaplist, img, distance):
     pixels = np.array(img)
     pixels = np.where(pixels == 0)
     pixels = list(zip(pixels[0], pixels[1]))
-    cornerlist = []
 
 
     for gap in gaplist:

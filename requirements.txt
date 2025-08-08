@@ -1,7 +1,6 @@
 tensorflow
-numpy 
+numpy
 matplotlib
-math
-random
-PIL 
-skimage
+Pillow
+scikit-image
+streamlit
