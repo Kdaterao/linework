@@ -1,0 +1,7 @@
+tensorflow
+numpy 
+matplotlib
+math
+random
+PIL 
+skimage
