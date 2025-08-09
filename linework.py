@@ -1,6 +1,6 @@
 import streamlit as st
 from model import model
-from PIL import Image
+
 import io
 
 #----------page configuration------------------------------------------------------
@@ -69,9 +69,9 @@ with col1:
     connectgap_button = st.button("Finish Linework ✍️",  type="primary")
 with col2:
         if input_image:
-            st.write("###### ← Press :red['Finish Linework✍️'] to clean up the :blue[image!]")
+            st.write("###### Press :red['Finish Linework✍️'] to clean up the :blue[image!]")
         else:
-            st.write("###### Upload an image to start!")
+            st.write("###### Upload an image in the sidebar to start!")
 
 #-------------------handles running the model------------------------------------------
 
