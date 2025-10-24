@@ -32,7 +32,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-col1, col2= st.columns([0.65,0.35], vertical_alignment= 'top', gap = 'small' )
+col1, col2= st.columns([0.65,0.35], gap = 'small' )
 with col1:
     st.markdown('###### :blue[Detects and fills in gaps] for black and white images, aiding in linework tasks for animation')
 with col2:
