@@ -4,3 +4,4 @@ matplotlib
 Pillow
 scikit-image
 streamlit
+protobuf<3.21
