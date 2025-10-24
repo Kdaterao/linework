@@ -6,7 +6,6 @@ from functions.cornercheck import cornercheck
 from functions.general_functions import createsquare, createsquare_1, draw_on_image, thickenline_IMAGE, drawbetweenpoints
 from functions.matchgaps import match_gaps
 from functions.connectgaps import connectgaps
-from functions.back_to_image import back_to_image
 from functions.convert_to_num import convert_to_num
 import streamlit as st
 
