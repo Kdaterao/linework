@@ -84,17 +84,17 @@ elif connectgap_button and input_image is None:
 
 #----------------------------Output image UI-------------------------------------------
 if input_image is not None and st.session_state['nodefault'] == True:
-    st.image(input_image, caption="original image", use_container_width=True)
+    st.image(input_image, caption="original image", width="stretch")
     if gap_image is not None and final_image is not None:
-        st.image(gap_image, caption="gaps found", use_container_width=True)
-        st.image(final_image, caption="finalimage", use_container_width=True)
+        st.image(gap_image, caption="gaps found", width="stretch")
+        st.image(final_image, caption="finalimage", width="stretch")
 
         
 elif input_image is not None and st.session_state['nodefault'] == False:
-    st.image(input_image, caption="Sample image", use_container_width=True)
+    st.image(input_image, caption="Sample image", width="stretch")
     if gap_image is not None and final_image is not None:
-        st.image(gap_image, caption="gaps found", use_container_width=True)
-        st.image(final_image, caption="finalimage", use_container_width=True)
+        st.image(gap_image, caption="gaps found", width="stretch")
+        st.image(final_image, caption="finalimage", width="stretch")
 
 st.divider()
 #-------------gives link to google drive with more images to try out----------------------
