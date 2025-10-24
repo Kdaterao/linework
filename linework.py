@@ -64,7 +64,7 @@ elif st.session_state['nodefault'] == False:
         input_image = io.BytesIO(f.read())
 #----------------------------model button UI-------------------------------------------
 
-col1, col2 = st.columns([0.22,0.65], gap=None)
+col1, col2 = st.columns([0.22,0.65], gap="small")
 with col1:
     connectgap_button = st.button("Finish Linework ✍️",  type="primary")
 with col2:
